@@ -1,0 +1,37 @@
+{%extends 'layout.html'%}
+{%block content%}
+<div style="text-align:center">
+    <h1>Update Your Book</h1>
+</div>
+<div class="block">
+    <form method="POST" action="">
+      {{ form.hidden_tag() }}<br>
+      {{ form.name.label}}<br>
+      {{ form.name(class="inputbox") }}
+      {% if form.name.errors %}
+              {% for error in form.name.errors %}
+                  <span style="color:#eb510a;">{{ error }}</span>
+              {% endfor %}
+      {% endif %}
+      <br><br>
+      {{ form.author.label}}<br>
+      {{ form.author(class="inputbox") }}
+      {% if form.author.errors %}
+              {% for error in form.author.errors %}
+                  <span style="color:#eb510a;">{{ error }}</span>
+              {% endfor %}
+      {% endif %}
+      <br><br>
+      {{ form.edition.label}}<br>
+      {{ form.edition(class="inputbox") }}
+      {% if form.edition.errors %}
+              {% for error in form.edition.errors %}
+                  <span style="color:#eb510a;">{{ error }}</span>
+              {% endfor %}
+      {% endif %}
+      <br><br>
+      {{ form.submit(class="sub-btn") }}
+      <p class="del-btn" onclick="window.location.href='{{url_for('delete',id=b.id)}}'">Delete Book</p>
+    </form><br>
+</div><br><br>
+{%endblock%}

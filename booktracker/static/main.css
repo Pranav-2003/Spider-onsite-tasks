@@ -1,0 +1,120 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+    
+.site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+  
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+
+.main {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.block{
+    width: 30vw;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+.inputbox{
+    background: rgba(255,255,255,0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 97%;
+    background-color: #e8eeef;
+    color: #323233;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 5px;
+}
+
+.sub-btn{
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+.section{
+    width:250px;
+    height:230px;
+    float: left;
+    word-wrap: break-word;
+    margin-right:20px;
+    margin-top: 20px;
+    text-align: center;
+    border: 3px solid black;
+    background-color: rgba(177, 180, 183, 0.74);
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.sub-btn{
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #4bc970;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #3ac162;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }
+  
+.del-btn{
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    background-color: #f62819;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #f62819;
+    border-width: 1px 1px 3px;
+    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+    margin-bottom: 10px;
+  }

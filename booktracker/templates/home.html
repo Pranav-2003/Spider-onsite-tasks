@@ -1,0 +1,14 @@
+{%extends 'layout.html'%}
+{%block content%}
+{%if b.count()!=0%}
+{%for book in b%}
+<div class="section" onclick="window.location.href='{{ url_for('edit', id=book.id) }}'">
+    <h2>{{book.bname}}</h2><br>
+    <p>Author: {{book.author}}</p><br>
+    <p>Edition: {{book.edition}}</p><br>
+</div>
+{%endfor%}
+{%else%}
+<h1>You don't have any books</h1>
+{%endif%}
+{%endblock%}
