@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(134, 141, 216);
+}
+
+#form{
+    margin-top:15vh;
+    margin-bottom: 10vh;
+}
+#details{
+    font: bold;
+    font-size: 1.3rem;
+    display: none;
+    text-align: center;;
+    margin-left:42vw;
+}
+#image{
+    width:200px;
+    height:200px;
+}
+
+.info{
+    text-align: center;
+    margin-left: 37vw;
+    width:23vw;
+    height:45vh;
+    border: 5px solid black;
+}
+
+.n, .fs, .fg{
+    border: 5px solid black;
+    margin-left: 37vw;
+    width:23vw;
+    height:10vh;
+}
